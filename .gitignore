@@ -1,0 +1,12 @@
+# does not ignore the README.md file
+!README.md
+
+.DS_Store
+
+__pycache__
+
+checkpoints/
+data/
+eval_plots/
+model_checkpoints/
+
