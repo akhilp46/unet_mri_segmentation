@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
     img, msk = data[0] 
     print(img.shape)
-    print(img.dtype)  # Expected: torch.float32
+    print(img.dtype)  # Expected: torch.float32 (MPS required float32 instead of float64) (Dec 2024)
     print(msk.shape)
     print(msk.dtype)
     print("Image exists:", os.path.exists(data.images[0]))

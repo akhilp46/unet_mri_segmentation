@@ -1,3 +1,5 @@
+# This script was used to train UNet on M2 Pro 
+
 import torch
 import torch.optim as optim
 from torch.utils.data import DataLoader

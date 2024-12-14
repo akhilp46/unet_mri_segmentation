@@ -1,4 +1,4 @@
-# https://www.youtube.com/watch?v=HS3Q_90hnDg
+# UNet architecture directly from: https://www.youtube.com/watch?v=HS3Q_90hnDg
 import torch 
 import torch.nn as nn
 
